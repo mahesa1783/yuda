@@ -1,0 +1,18 @@
+1.Pseudocode
+Tentukan algoritma dan pseudocode luas jajar genjang
+(panjang = 5, tinggi = 3)
+Menghitung Luas Jajar Genjang:
+python:
+panjang = 5
+tinggi = 3
+luas = panjang * tinggi
+print("Luas jajar genjang:", luas)
+
+2.Algoritma
+1.Mulai
+2.Masukkan nilai jari-jari (jari_jari) dari tabung
+3.Masukkan nilai tinggi (tinggi) dari tabung
+4.Tetapkan nilai π (pi) sebagai 3.14159
+5.Hitung volume tabung dengan menggunakan rumus: volume = π * jari_jari^2 * tinggi
+6.Tampilkan hasil volume tabung
+8.Selesai
