@@ -1,0 +1,19 @@
+1.pseudocode
+Tentukan algoritma dan pseudocode volume kerucut
+(diameter = 5, tinggi = 4)
+Menghitung Volume Kerucut:
+Python:
+Diameter = 5
+Tinggi = 4
+Jari_jari = diameter / 2
+Pi = 3.14159
+Volume = (1/3) * pi * jari_jari ** 2 * tinggi
+Print(“Volume kerucut:”, volume)
+
+2.algoritma
+1.Mulai
+2.Inisialisasi variabel "alas" dengan nilai 25
+3.Inisialisasi variabel "tinggi" dengan nilai 30
+4.Hitung luas segitiga dengan rumus: luas = 0.5 * alas * tinggi
+5.Tampilkan hasil perhitungan luas segitiga: "Luas segitiga: [luas]"
+6.Selesai
