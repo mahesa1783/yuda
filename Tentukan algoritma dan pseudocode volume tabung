@@ -1,0 +1,18 @@
+1.pseudocode
+Tentukan algoritma dan pseudocode volume tabung (jari-jari = 3, tinggi = 5)
+Menghitung Volume Tabung:
+python:
+jari_jari = 3
+tinggi = 5
+pi = 3.14159
+volume = pi * jari_jari ** 2 * tinggi
+print("Volume tabung:", volume)
+
+2.algoritma
+1.Mulai
+2.Masukkan nilai panjang jajar genjang (panjang)
+3.Masukkan nilai tinggi jajar genjang (tinggi)
+4.Hitung luas jajar genjang dengan mengalikan nilai panjang dengan nilai tinggi (luas = panjang *
+tinggi)
+5.Tampilkan hasil luas jajar genjang
+6.Selesai
