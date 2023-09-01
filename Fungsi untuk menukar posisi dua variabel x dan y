@@ -1,0 +1,32 @@
+1.pseudocode
+Fungsi untuk menukar posisi dua variabel x dan y, dengan kasus : Ada 2 buah: manggis dan
+pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+def tukar_posisi(x, y):
+ temp = x
+ x = y
+ y = temp
+ return x, y
+piring_manggis = 1
+piring_pisang = 2
+piring_kosong = 3
+print("Sebelum pertukaran:")
+print("Piring Manggis:", piring_manggis)
+print("Piring Pisang:", piring_pisang)
+print("Piring Kosong:", piring_kosong)
+piring_manggis, piring_pisang = tukar_posisi(piring_manggis, piring_pisang)
+print("\nSetelah pertukaran:")
+print("Piring Manggis:", piring_manggis)
+print("Piring Pisang:", piring_pisang)
+print("Piring Kosong:", piring_kosong)
+
+2.Algoritma 
+1.Tentukan fungsi tukar_posisi(x, y) yang menerima dua argumen, x dan y.
+2.Simpan nilai x pada variabel sementara temp.
+3.Isi nilai x dengan nilai y.
+4.Isi nilai y dengan nilai yang disimpan di temp.
+5.Kembalikan nilai x dan y yang telah ditukar.
+6.Tetapkan nilai awal untuk variabel piring_manggis, piring_pisang, dan piring_kosong.
+7.Tampilkan nilai awal dari ketiga piring menggunakan pernyataan print.
+8.Panggil fungsi tukar_posisi dengan argumen piring_manggis dan piring_pisang, dan simpan
+hasilnya kembali ke piring_manggis dan piring_pisang.
+9.Tampilkan nilai setelah pertukaran dari ketiga piring menggunakan pernyataan print
