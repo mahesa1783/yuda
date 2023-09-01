@@ -1,0 +1,21 @@
+1.Pseudocode
+Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+Alas 25
+Tinggi 30
+Hitung luas dari segitiga tersebut.
+Menghitung Luas Segitiga:
+python:
+alas = 25
+tinggi = 30
+luas = 0.5 * alas * tinggi
+print("Luas segitiga:", luas)
+
+2.Algoritma
+1.Mulai
+2.Masukkan nilai diameter kerucut
+3.Masukkan nilai tinggi kerucut
+4.Hitung jari-jari kerucut dengan rumus: jari_jari = diameter / 2
+5.Tetapkan nilai π (pi) sebagai 3.14159
+6.Hitung volume kerucut dengan rumus: volume = (1/3) * pi * jari_jari ** 2 * tinggi
+7.Tampilkan hasil volume kerucut
+8.Selesai
