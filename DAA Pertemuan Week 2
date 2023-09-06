@@ -18,3 +18,36 @@ nilai_siswa = np.array([85, 55, 40, 90])
 print(nilai_siswa[3])
 
 Hasil: 90
+-----------------------------------
+import numpy as np 
+print(np.__version__)
+
+Hasil: 1.23.5
+-----------------------------------
+print("Hello, World!")
+print("Nama saya (Yuda Mahesa Jenar)")
+print("NIM saya (2022071032)")
+
+Hasil:
+Hello, World!
+Nama saya (Yuda Mahesa Jenar)
+NIM saya (2022071032)
+-----------------------------------
+if 5>2:
+  print("Five is greater than two!")
+
+Hasil: Five is greater than two!
+-----------------------------------
+x = 5 
+y = "John"
+print (x)
+print (y)
+
+Hasil: 
+5
+John
+------------------------------------
+
+
+
+
