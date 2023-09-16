@@ -1,0 +1,111 @@
+import datetime
+tanggal = datetime.datetime.now()
+mahasiswa = ["Yuda Mahesa Jenar", "2022071032", "Informatika", "Desain Analisis Algoritma", tanggal.strftime("%d-%m-%Y"),"Universitas Pembangunan Jaya"]
+
+print(mahasiswa)
+
+Hasil:
+['Yuda Mahesa Jenar', '2022071032', 'Informatika', 'Desain Analisis Algoritma', '16-09-2023', 'Universitas Pembangunan Jaya']
+-----------------------------
+bin_colors=['red','green','blue','yellow']
+bin_colors[-1]
+
+Hasil: Yellow
+------------------------------
+bin_colors=['Red','Green','Blue','Yellow']
+for aColor in bin_colors:
+  print(aColor + " Square")
+
+hasil:
+Red Square
+Green Square
+Blue Square
+Yellow Square
+-------------------------------------
+bin_colors=['red','green','blue','yellow']
+bin_colors[0:2]
+
+hasil:
+red,green
+---------------------------
+import datetime
+tanggal = datetime.datetime.now()
+mahasiswa = ["Yuda Mahesa Jenar", "2022071032", "Informatika", "Desain Analisis Algoritma", tanggal.strftime("%d-%m-%Y"),"Universitas Pembangunan Jaya"]
+
+for mhs in mahasiswa:
+  print(mhs + " Square")
+
+Hasil:
+Yuda Mahesa Jenar Square
+2022071032 Square
+Informatika Square
+Desain Analisis Algoritma Square
+13-09-2023 Square
+Universitas Pembangunan Jaya Square
+-------------------------------
+#NESTED TUPLE
+Pertama=("100")
+Kedua=("200", "400", "600")
+Ketiga=("300")
+Keempat=("400", "800")
+Total = (Pertama,Kedua,Ketiga,Keempat)
+print(Total)
+
+hasil:
+('100', ('200', '400', '600'), '300', ('400', '800'))
+---------------------------------
+bin_colors=('Red','Green','Blue','Yellow')
+bin_colors[1]
+'Green'
+bin_colors[2:]
+('Blue', 'Yellow')
+
+hasil:
+blue,yellow
+---------------------------------
+#DICTIONARY
+import numpy as np
+
+bin_mahasiswa = {"NAMA"  :"Yuda",
+              "NIM " : "2022071032",
+              "Prodi " : "Informatika",
+              "Mata Kuliah" : "Desain Analisis Algoritma",
+              "Universitas" : "Universitas Pembangunan Jaya"}
+print(bin_mahasiswa)
+
+hasil:
+{'NAMA': 'Yuda', 'NIM ': '2022071032', 'Prodi ': 'Informatika', 'Mata Kuliah': 'Desain Analisis Algoritma', 'Universitas': 'Universitas Pembangunan Jaya'}
+-----------------------------------
+hariAwal = ("senin","selasa","rabu")
+hariAkhir = ("kamis","jumat","sabtu")
+hari = (hariAkhir, hariAwal)
+print(hari)
+
+hasil:
+(('kamis', 'jumat', 'sabtu'), ('senin', 'selasa', 'rabu'))
+----------------------------------------
+bin_colors ={
+"manual_color": "Yellow",
+"approved_color": "Green",
+"refused_color": "Red"
+}
+print(bin_colors)
+
+hasil:
+{'manual_color': 'Yellow', 'approved_color': 'Green', 'refused_color': 'Red'}
+------------------------------------------
+#dictionary
+bin_colors['approved_color']="Purple"
+print(bin_colors)
+{'manual_color': 'Yellow', 'approved_color': 'Purple',
+'refused_color': 'Red'}
+
+hasil:{'manual_color': 'Yellow', 'approved_color': 'Purple', 'refused_color': 'Red'}
+{'manual_color': 'Yellow', 'approved_color': 'Purple', 'refused_color': 'Red'}
+
+
+
+
+
+
+
